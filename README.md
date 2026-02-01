@@ -11,16 +11,19 @@ Given user-defined categories and an input sentence, the app converts both the s
 - **Lightweight retrieval logic**: Uses **cosine similarity** (with `exp(cos)` to ensure positive scores) to implement a minimal semantic retrieval / prototype classification pipeline.
 
 ## Quick Start
+
 1. **Install dependencies:**
 
    ```bash
    pip install streamlit numpy sentence-transformers openai gdown matplotlib pandas
    ```
+
 2. **Set OpenAI API Key:**
 
    ```bash
    export OPENAI_API_KEY="your-key-here"
    ```
+
 3. **Run the app:**
 
    ```bash
