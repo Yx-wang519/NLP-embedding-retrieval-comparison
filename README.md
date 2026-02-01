@@ -12,17 +12,23 @@ Given user-defined categories and an input sentence, the app converts both the s
 
 ## Quick Start
 1. **Install dependencies:**
+
    ```bash
    pip install streamlit numpy sentence-transformers openai gdown matplotlib pandas
    ```
 2. **Set OpenAI API Key:**
+
    ```bash
    export OPENAI_API_KEY="your-key-here"
    ```
 3. **Run the app:**
+
    ```bash
    streamlit run miniproject_1.py
    ```
+
 You should see a page like this in your local browser:
-![Demo screenshot 1](images/screenshot1.png)
-![Demo screenshot 2](images/screenshot2.png)
+
+![Demo screenshot 1](images/Screenshot1.png)
+
+![Demo screenshot 2](images/Screenshot2.png)
